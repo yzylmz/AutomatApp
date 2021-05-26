@@ -5,8 +5,8 @@ namespace CoreConsoleExample
 {
     public class SeedData
     {
-        public IEnumerable<Product> Products;
-        public IEnumerable<Campaign> Campaigns;
+        public List<Product> Products;
+        public List<Campaign> Campaigns;
         public SeedData()
         {
 
@@ -33,11 +33,11 @@ namespace CoreConsoleExample
                 CampaignProducts = new List<CampaignProduct>{
                     new CampaignProduct {
                         Id = 1,
-                        PromotionalPrice = 4m
+                        CampaignPrice = 4m
                     },
                     new CampaignProduct {
                         Id = 2,
-                        PromotionalPrice = 6m
+                        CampaignPrice = 6m
                     }
                 }
             },
@@ -46,15 +46,15 @@ namespace CoreConsoleExample
                 CampaignProducts = new List<CampaignProduct>{
                     new CampaignProduct {
                         Id = 3,
-                        PromotionalPrice = 5m
+                        CampaignPrice = 5m
                     },
                     new CampaignProduct {
                         Id = 7,
-                        PromotionalPrice = 0.5m
+                        CampaignPrice = 0.5m
                     },
                     new CampaignProduct {
                         Id = 11,
-                        PromotionalPrice = 2m
+                        CampaignPrice = 2m
                     }
                 }
             },
@@ -63,11 +63,11 @@ namespace CoreConsoleExample
                 CampaignProducts = new List<CampaignProduct>{
                     new CampaignProduct {
                         Id = 9,
-                        PromotionalPrice = 6m
+                        CampaignPrice = 6m
                     },
                     new CampaignProduct {
                         Id = 4,
-                        PromotionalPrice = 2m
+                        CampaignPrice = 2m
                     }
                 }
             },
@@ -76,11 +76,11 @@ namespace CoreConsoleExample
                 CampaignProducts = new List<CampaignProduct>{
                     new CampaignProduct {
                         Id = 1,
-                        PromotionalPrice = 3m
+                        CampaignPrice = 3m
                     },
                     new CampaignProduct {
                         Id = 4,
-                        PromotionalPrice = 1.8m
+                        CampaignPrice = 1.8m
                     }
                 }
             },
@@ -89,11 +89,11 @@ namespace CoreConsoleExample
                 CampaignProducts = new List<CampaignProduct>{
                     new CampaignProduct {
                         Id = 1,
-                        PromotionalPrice = 3.2m
+                        CampaignPrice = 3.2m
                     },
                     new CampaignProduct {
                         Id = 7,
-                        PromotionalPrice = 0.7m
+                        CampaignPrice = 0.7m
                     }
                 }
             },
@@ -102,11 +102,11 @@ namespace CoreConsoleExample
                 CampaignProducts = new List<CampaignProduct>{
                     new CampaignProduct {
                         Id = 7,
-                        PromotionalPrice = 0.4m
+                        CampaignPrice = 0.4m
                     },
                     new CampaignProduct {
                         Id = 11,
-                        PromotionalPrice = 3.9m
+                        CampaignPrice = 3.9m
                     }
                 }
             },
@@ -115,11 +115,11 @@ namespace CoreConsoleExample
                 CampaignProducts = new List<CampaignProduct>{
                     new CampaignProduct {
                         Id = 3,
-                        PromotionalPrice = 5.8m
+                        CampaignPrice = 5.8m
                     },
                     new CampaignProduct {
                         Id = 1,
-                        PromotionalPrice = 2.9m
+                        CampaignPrice = 2.9m
                     }
                 }
             },
@@ -128,15 +128,15 @@ namespace CoreConsoleExample
                 CampaignProducts = new List<CampaignProduct>{
                     new CampaignProduct {
                         Id = 4,
-                        PromotionalPrice = 2.1m
+                        CampaignPrice = 2.1m
                     },
                     new CampaignProduct {
                         Id = 9,
-                        PromotionalPrice = 5.4m
+                        CampaignPrice = 5.4m
                     },
                     new CampaignProduct {
                         Id = 11,
-                        PromotionalPrice = 3.7m
+                        CampaignPrice = 3.7m
                     }
                 }
             },
@@ -145,11 +145,11 @@ namespace CoreConsoleExample
                 CampaignProducts = new List<CampaignProduct>{
                     new CampaignProduct {
                         Id = 7,
-                        PromotionalPrice =0m
+                        CampaignPrice =0m
                     },
                     new CampaignProduct {
                         Id = 3,
-                        PromotionalPrice = 7m
+                        CampaignPrice = 7m
                     }
                 }
             }
