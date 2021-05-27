@@ -447,3 +447,5 @@ _ReSharper.*
 bin
 obj
 packages
+launch*
+tasks*
