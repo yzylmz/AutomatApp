@@ -2,7 +2,7 @@ namespace CoreConsoleExample.Model
 {
     public class ShoppingCartProduct
     {
-        public Product Product { get; set; }
-        public decimal CampaignPrice { get; set; }
+        public Product product { get; set; }
+        public decimal campaignPrice { get; set; }
     }
 }

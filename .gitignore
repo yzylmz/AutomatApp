@@ -440,3 +440,10 @@ $RECYCLE.BIN/
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+*.suo
+*.user
+_ReSharper.*
+bin
+obj
+packages

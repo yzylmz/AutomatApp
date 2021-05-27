@@ -4,8 +4,8 @@ namespace CoreConsoleExample.Model
 {
     public class Campaign
     {
-        public int Id { get; set; }
-        public List<CampaignProduct> CampaignProducts { get; set; }
+        public int id { get; set; }
+        public List<CampaignProduct> campaignProducts { get; set; }
         public Campaign()
         {
         }
